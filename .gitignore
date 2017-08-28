@@ -1,0 +1,25 @@
+# Ignore log
+*.log
+*.log.[1234567890]
+
+# Binary Files
+*.dat
+
+# Single Module Project
+/target/
+/bin/
+/build/
+/doc/
+
+# Ignore binary
+*.bin
+
+# Ignore log
+*.log
+*.log.[1234567890]
+
+# bower
+/bower_components/
+
+# npm
+/node_modules/
