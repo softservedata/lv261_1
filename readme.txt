@@ -1,4 +1,4 @@
-
+In the winter time we go
 Walking in the fields of snow;
 
 
@@ -9,7 +9,7 @@ Is as white as white can be.
 
 
 All across the fields there be
-
+Prints in silver filigree;
 And our mothers always know,
 
 
