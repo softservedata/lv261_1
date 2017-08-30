@@ -10,7 +10,7 @@ namespace Work
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Ok2");
+            Console.WriteLine("Ok, don't worry, be happy!");
         }
     }
 }
