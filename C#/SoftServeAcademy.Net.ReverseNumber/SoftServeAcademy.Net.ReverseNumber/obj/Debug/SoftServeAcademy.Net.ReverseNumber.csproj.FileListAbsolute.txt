@@ -1,0 +1,6 @@
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\bin\Debug\SoftServeAcademy.Net.ReverseNumber.exe.config
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\bin\Debug\SoftServeAcademy.Net.ReverseNumber.exe
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\bin\Debug\SoftServeAcademy.Net.ReverseNumber.pdb
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\obj\Debug\SoftServeAcademy.Net.ReverseNumber.csprojResolveAssemblyReference.cache
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\obj\Debug\SoftServeAcademy.Net.ReverseNumber.exe
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.ReverseNumber\SoftServeAcademy.Net.ReverseNumber\obj\Debug\SoftServeAcademy.Net.ReverseNumber.pdb
