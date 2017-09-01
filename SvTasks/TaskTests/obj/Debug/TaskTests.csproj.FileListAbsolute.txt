@@ -1,0 +1,7 @@
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\bin\Debug\TaskTests.dll
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\bin\Debug\TaskTests.pdb
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\bin\Debug\SvTasks.exe
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\bin\Debug\SvTasks.pdb
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.csprojResolveAssemblyReference.cache
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.dll
+c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.pdb

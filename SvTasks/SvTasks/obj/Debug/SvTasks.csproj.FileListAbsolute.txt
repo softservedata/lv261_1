@@ -1,0 +1,6 @@
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\bin\Debug\SvTasks.exe.config
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\bin\Debug\SvTasks.exe
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\bin\Debug\SvTasks.pdb
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.exe
+c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.pdb
