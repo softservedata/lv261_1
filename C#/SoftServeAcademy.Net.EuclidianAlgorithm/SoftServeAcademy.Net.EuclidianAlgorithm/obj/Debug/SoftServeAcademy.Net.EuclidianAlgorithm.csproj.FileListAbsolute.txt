@@ -1,0 +1,6 @@
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\obj\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.csprojResolveAssemblyReference.cache
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\bin\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.exe.config
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\bin\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.exe
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\bin\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.pdb
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\obj\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.exe
+c:\users\nazar\documents\visual studio 2017\Projects\SoftServeAcademy.Net.EuclidianAlgorithm\SoftServeAcademy.Net.EuclidianAlgorithm\obj\Debug\SoftServeAcademy.Net.EuclidianAlgorithm.pdb
