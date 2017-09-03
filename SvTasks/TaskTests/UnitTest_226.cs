@@ -11,7 +11,7 @@ namespace TaskTests
         Tasks tasks = new Tasks();
 
         [TestMethod]
-        public void GetAllCommonDividers_6and9_18and36retuned()
+        public void GetAllCommonDivisors_6and9_18and36retuned()
         {
             //arrange
             int n = 6;
@@ -20,7 +20,7 @@ namespace TaskTests
             double secondItemExpected = 36;
 
             //act
-            List<double> actual = tasks.GetAllCommonDividers_226(n, m);
+            List<double> actual = tasks.GetAllCommonDivisors_226(n, m);
             double firstItemActual = actual[0];
             double secondItemActual = actual[1];
 
@@ -30,7 +30,7 @@ namespace TaskTests
         }
 
         [TestMethod]
-        public void GetAllCommonDividers_9and6_18and36retuned()
+        public void GetAllCommonDivisors_9and6_18and36retuned()
         {
             //arrange
             int n = 9;
@@ -39,7 +39,7 @@ namespace TaskTests
             double secondItemExpected = 36;
 
             //act
-            List<double> actual = tasks.GetAllCommonDividers_226(n, m);
+            List<double> actual = tasks.GetAllCommonDivisors_226(n, m);
             double firstItemActual = actual[0];
             double secondItemActual = actual[1];
 
@@ -49,7 +49,7 @@ namespace TaskTests
         }
 
         [TestMethod]
-        public void GetAllCommonDividers_0and0_emptyListRetuned()
+        public void GetAllCommonDivisors_0and0_emptyListRetuned()
         {
             //arrange
             int n = 0;
@@ -57,7 +57,7 @@ namespace TaskTests
             int listCountExpected = 0;
 
             //act
-            List<double> commonDividers = tasks.GetAllCommonDividers_226(n, m);
+            List<double> commonDividers = tasks.GetAllCommonDivisors_226(n, m);
             int listCountActual = commonDividers.Count;
 
             //assert

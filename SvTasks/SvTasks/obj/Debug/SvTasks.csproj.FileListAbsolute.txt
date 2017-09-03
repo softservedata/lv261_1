@@ -4,3 +4,10 @@ c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\bin\Debug\Sv
 c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.csprojResolveAssemblyReference.cache
 c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.exe
 c:\users\user\documents\visual studio 2013\Projects\SvTasks\SvTasks\obj\Debug\SvTasks.pdb
+D:\261\SvTasks\SvTasks\bin\Debug\SvTasks.exe.config
+D:\261\SvTasks\SvTasks\bin\Debug\SvTasks.exe
+D:\261\SvTasks\SvTasks\bin\Debug\SvTasks.pdb
+D:\261\SvTasks\SvTasks\obj\Debug\SvTasks.csprojResolveAssemblyReference.cache
+D:\261\SvTasks\SvTasks\obj\Debug\SvTasks.csproj.CoreCompileInputs.cache
+D:\261\SvTasks\SvTasks\obj\Debug\SvTasks.exe
+D:\261\SvTasks\SvTasks\obj\Debug\SvTasks.pdb

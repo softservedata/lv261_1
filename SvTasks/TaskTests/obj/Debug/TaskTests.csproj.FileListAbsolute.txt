@@ -5,3 +5,13 @@ c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\bin\Debug\
 c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.csprojResolveAssemblyReference.cache
 c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.dll
 c:\Users\user\documents\visual studio 2013\Projects\SvTasks\TaskTests\obj\Debug\TaskTests.pdb
+D:\261\SvTasks\TaskTests\bin\Debug\TaskTests.dll
+D:\261\SvTasks\TaskTests\bin\Debug\TaskTests.pdb
+D:\261\SvTasks\TaskTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\261\SvTasks\TaskTests\bin\Debug\SvTasks.exe
+D:\261\SvTasks\TaskTests\bin\Debug\SvTasks.pdb
+D:\261\SvTasks\TaskTests\bin\Debug\SvTasks.exe.config
+D:\261\SvTasks\TaskTests\obj\Debug\TaskTests.csprojResolveAssemblyReference.cache
+D:\261\SvTasks\TaskTests\obj\Debug\TaskTests.csproj.CoreCompileInputs.cache
+D:\261\SvTasks\TaskTests\obj\Debug\TaskTests.dll
+D:\261\SvTasks\TaskTests\obj\Debug\TaskTests.pdb

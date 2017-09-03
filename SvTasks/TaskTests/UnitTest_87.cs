@@ -14,7 +14,7 @@ namespace TaskTests
         {
             //arrange
             int n = 12345;
-            byte m = 3;
+            int m = 3;
             int expected = 12;
 
             //act
@@ -28,9 +28,9 @@ namespace TaskTests
         public void GetSum_n12_m3_minus1retuned()
         {
             //arrange
-            int n = 12;
-            byte m = 3;
-            int expected = -1;
+            int n = 34;
+            int m = 2;
+            int expected = 7;
 
             //act
             int actual = tasks.GetSum_87(n, m);
@@ -44,7 +44,7 @@ namespace TaskTests
         {
             //arrange
             int n = 0;
-            byte m = 0;
+            int m = 0;
             int expected = -1;
 
             //act

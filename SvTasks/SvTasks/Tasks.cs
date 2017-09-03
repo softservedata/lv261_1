@@ -8,9 +8,15 @@ namespace SvTasks
 {
     public class Tasks
     {
-        public int GetSum_87(int n, byte m)
+        /// <summary>
+        /// returns a sum of m last digits n
+        /// </summary>
+        /// <param name="n">base number</param>
+        /// <param name="m">quantity of last digits n</param>
+        /// <returns></returns>
+        public int GetSum_87(int n, int m)
         {
-            if (m != 0 && n != 0)
+            if (m > 0 && n > 0)
             {
                 // finish result (retuned value)
                 int result = 0;
@@ -24,16 +30,13 @@ namespace SvTasks
                 {
                     iteration++;
                     rest = n % 10;
-                    Console.WriteLine(rest);
                     result += rest;
-                    Console.WriteLine(result);
                     n /= 10;
 
                     if (iteration == m || n == 0)
                     {
                         flag = false;
                     }
-                    Console.WriteLine(flag);
                 }
                 while (flag);
 
@@ -48,10 +51,16 @@ namespace SvTasks
             return -1;
         }
 
-        public List<double> GetAllCommonDividers_226(int n, int m)
+        /// <summary>
+        /// returns List of all common divisors n and m up to n*m
+        /// </summary>
+        /// <param name="n">first number</param>
+        /// <param name="m">second number</param>
+        /// <returns></returns>
+        public List<double> GetAllCommonDivisors_226(int n, int m)
         {
             List<double> commonDividers = new List<double>();
-            if (m != 0 && n != 0)
+            if (m > 0 && n > 0)
             {
                 int biggerNumber = m > n ? m : n;
                 int smallerNumber = m > n ? n : m;
@@ -69,32 +78,45 @@ namespace SvTasks
             return commonDividers;
         }
 
-        public List<int> GetMersonNumbers_559(int n)
+        /// <summary>
+        /// returns all prime Merson Numbers up to n
+        /// </summary>
+        /// <param name="n">end of search</param>
+        /// <returns></returns>
+        public List<int> GetPrimeMersonNumbers_559(int n)
         {
             List<int> mersonNumbers = new List<int>();
-            List<int> primeNumbers = new List<int> { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 };
-            int mersonNumber;
-
-            foreach (int pn in primeNumbers)
+            if (n > 0)
             {
-                mersonNumber = (int)Math.Pow(2, pn) - 1;
+                List<int> primeNumbers = new List<int> { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31 };
+                int mersonNumber;
 
-                if (mersonNumber <= n)
+                foreach (int pn in primeNumbers)
                 {
-                    if (isSimple(mersonNumber))
+                    mersonNumber = (int)Math.Pow(2, pn) - 1;
+
+                    if (mersonNumber < n)
                     {
-                        mersonNumbers.Add(mersonNumber);
+                        if (IsSimple(mersonNumber))
+                        {
+                            mersonNumbers.Add(mersonNumber);
+                        }
                     }
-                }
-                else
-                {
-                    break;
+                    else
+                    {
+                        break;
+                    }
                 }
             }
             return mersonNumbers;
         }
 
-        private static bool isSimple(int number)
+        /// <summary>
+        /// Determines whether number is simple
+        /// </summary>
+        /// <param name="number">number for testing on simplicity</param>
+        /// <returns></returns>
+        private static bool IsSimple(int number)
         {
             bool tf = false;
             if(number == 2 || number == 3 || number == 5)
