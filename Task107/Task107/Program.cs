@@ -10,26 +10,26 @@ namespace Task107
     {
         static void Main(string[] args)
         {
-            try
+            while (true)
             {
-                while (true)
+                try
                 {
-                    Console.WriteLine("If you want to exit pres 'Q' else input a number:");
-                    var st = Console.ReadLine();
-                    int number = Int32.Parse(st);
-                    Exercise107 rez = new Exercise107(number);
-                    Console.WriteLine(rez.MaxPossibleValue());
+                    Console.WriteLine("If you want to exit pres '0' else input a number:");
+                    int temp = Int32.Parse(Console.ReadLine());
+                    if (temp == 0) break;
+                    Exercise107 result = new Exercise107(temp);
+                    result.ShowRezult();
+                }
+                catch(WrongNumberException msg)
+                {
+                    Console.WriteLine(msg.Message);
+                }
+                catch(Exception msg)
+                {
+                    Console.WriteLine(msg.Message);
                 }
             }
-            catch (WrongNumberException msg)
-            {
-                Console.WriteLine(msg.Message);
-            }
-            catch (Exception msg)
-            {
-                Console.WriteLine(msg.Message);
-            }
-            Console.ReadLine();
+                  
         }
     }
     class Exercise107
@@ -57,12 +57,13 @@ namespace Task107
                 return (int)_max;
             }
         }
+        public void ShowRezult()
+        {
+            Console.WriteLine(MaxPossibleValue());
+        }
     }
     class WrongNumberException : Exception
     {
-        public WrongNumberException() : base(" Wrong number! ")
-        {
-
-        }
+        public WrongNumberException() : base(" Wrong number! It must be graiter then 1 ") { }
     }
 }

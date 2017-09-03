@@ -10,23 +10,29 @@ namespace Task331
     {
         static void Main(string[] args)
         {
-            try
+            Console.Write("Now we will look for pairs of integers (XYZ) ");
+            Console.WriteLine("for which X^2 + Y^2 + Z^2 = N, where N is a known number");
+            Console.WriteLine("To exit please enter `0`");
+            Console.WriteLine();
+            while (true)
             {
-                Exercise331 numb = new Exercise331();
-                foreach (var s in numb.SumToDegreePowerXYZ(-34))
+                try
                 {
-                    Console.WriteLine(s);
+                    Console.WriteLine("Please enter the number N:");
+                    int tempNumber = Int32.Parse(Console.ReadLine());
+                    if (tempNumber == 0) break;
+                    Exercise331 result = new Exercise331(tempNumber);
+                    result.ShowResult(result.SumToDegreePowerXYZ());
+                }
+                catch (WrongNumberException msg)
+                {
+                    Console.WriteLine(msg.Message);
+                }
+                catch (FormatException msg)
+                {
+                    Console.WriteLine(msg.Message);
                 }
             }
-            catch (WrongNumberException msg)
-            {
-                Console.WriteLine(msg.Message);
-            }
-            catch(Exception msg)
-            {
-                Console.WriteLine(msg.Message);
-            }
-            Console.ReadLine();
         }
     }
     class Exercise331
@@ -35,14 +41,15 @@ namespace Task331
         private int _x;
         private double _y;
         private double _z;
-        public Exercise331() { }
+        private int _number;
+        public Exercise331(int number) { _number = number; }
         private Exercise331(int x, double y, double z)
         {
             _x = x; _y = y; _z = z;
         }
-        public List<Exercise331> SumToDegreePowerXYZ(int _number)
+        public List<Exercise331> result = new List<Exercise331>();
+        public List<Exercise331> SumToDegreePowerXYZ()
         {
-            List<Exercise331> result = new List<Exercise331>();
             if (_number < 2)
             {
                 throw new WrongNumberException();
@@ -60,9 +67,18 @@ namespace Task331
             }
             return result;
         }
+        public void ShowResult(List<Exercise331> temp)
+        {
+            if (temp.Count == 0)
+                Console.WriteLine("For this number there is no one pair of numbers that would fulfill the above conditions");
+            foreach (var s in temp)
+            {
+                Console.WriteLine(s);
+            }
+        }
         public override string ToString()
         {
-            return String.Format("{0} {1} {2}", _x, _y, _z);
+            return string.Format("{0} {1} {2}", _x, _y, _z);
         }
     }
     class WrongNumberException : Exception
