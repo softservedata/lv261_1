@@ -33,33 +33,17 @@ function GetSum_87(n, m) {
     if(n !== null && n !== undefined && m !== null && m !== undefined){
         if (!(isNaN(+n)) && !(isNaN(+m))) {
             if(parseInt(n) > 0 && parseInt(m) > 0){
-                n = parseInt(n);
-                m = parseInt(m);
-                console.log(n + ' ' + m);
-                // finish result (retuned value)
-                let result = 0;
-                // remainder of the division by 10
-                let rest = 0;
-                // quantity of iterations. It must be equal m
-                let iteration = 0;
 
-                let flag = true;
-                do {
-                    iteration++;
-                    rest = n % 10;
-                    result += rest;
-                    n /= 10;
-
-                    if (iteration === m || parseInt(n) === 0) {
-                        flag = false;
-                    }
-                }
-                while (flag);
-
-                // return -1 if quantity of digits in n is less than m
-                if (iteration < m) {
+                if (n.length < m) {
                     return -1;
                 }
+
+                let result = 0;
+
+                for(let i = 0; i < m; i++){
+                    result += parseInt(n[n.length - (1 + i)])
+                }
+
                 return parseInt(result);
             }
         }
