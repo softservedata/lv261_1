@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="style/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="style/myStyles.css" type="text/css"/>
+    </head>
+    <body>
+        <div>
+            <table>
+                <tr>
+                    <th>Умова задачі</th>
+                    <th>Вхідні дані </th>
+                    <th>Результат</th>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Дано натуральні числа n, m. Отримати суму m останніх цифр числа n
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_87_n" placeholder="Введіть n"><br>
+                        <input type="text" id="txb_87_m" placeholder="Введіть m">
+                        <button id="btn_87">Порахувати</button>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_87_result" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Дано натуральні числа m, n. Отримати всі їхні натуральні спільні кратні, менші mn
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_226_n" placeholder="Введіть n"><br>
+                        <input type="text" id="txb_226_m" placeholder="Введіть m">
+                        <button id="btn_226">Порахувати</button>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_226_result" readonly="readonly">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            Дано натуральне число n. Знайти всі менші n прості числа Мерсенна.<br>
+                            (Просте число називається числом Мерсенна, якщо воно може бути представлено<br>
+                            у вигляді 2^p - 1, де p - також просте число.)
+                        </p>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_559" placeholder="Введіть n (до 2,3e18)">
+                        <button id="btn_559">Порахувати</button>
+                    </td>
+                    <td>
+                        <input type="text" id="txb_559_result" readonly="readonly">
+                        <textarea id="txtarea_559_result" rows="5" hidden="hidden"></textarea>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="script/myScript.js"></script>
+        <script>
+            document.getElementById('btn_87').onclick = function(){ 
+                setValueToTxb(GetSum_87, "txb_87_result", document.getElementById('txb_87_n').value, 
+                document.getElementById('txb_87_m').value);
+            }
+
+            document.getElementById('btn_226').onclick = function(){ 
+                setValueToTxb(GetAllCommonDivisors_226, "txb_226_result", document.getElementById('txb_226_n').value, 
+                document.getElementById('txb_226_m').value);
+            }
+
+            document.getElementById('btn_559').onclick = function(){ 
+                setValueToTxb(GetPrimeMersonNumbers_559, "txb_559_result", document.getElementById('txb_559').value);
+            }
+        </script>
+    </body>
+</html>

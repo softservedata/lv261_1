@@ -1,0 +1,18 @@
+body{
+    margin: 20px;
+    background-color: gainsboro;
+
+}
+table, tr, th, td{
+    border: black 1px solid;
+}
+table tr th{
+    font-size: 1.2em;
+    padding: 10px;
+}
+table tr td{
+    padding: 5px;
+}
+.error{
+    color: red;
+}
