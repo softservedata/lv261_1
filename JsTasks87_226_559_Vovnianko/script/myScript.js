@@ -4,14 +4,10 @@ function setValueToTxb(f, controlId, n, m)
     if(m === undefined){
         result = f(n);
         if(result.length === 0){
-            document.getElementById(controlId).hidden = "hidden";
-            document.getElementById('txtarea_559_result').hidden = false;
-            document.getElementById('txtarea_559_result').value = 
+            document.getElementById(controlId).value = 
             "Немає жодного простого числа Мерсенна від 0 до " + n;
         }
         else{
-            document.getElementById('txtarea_559_result').hidden = true;
-            document.getElementById(controlId).hidden = false;
             document.getElementById(controlId).value = result;
         }
     }

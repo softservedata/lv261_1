@@ -21,11 +21,12 @@
                     </td>
                     <td>
                         <input type="text" id="txb_87_n" placeholder="Введіть n"><br>
+                        <br>
                         <input type="text" id="txb_87_m" placeholder="Введіть m">
                         <button id="btn_87">Порахувати</button>
                     </td>
                     <td>
-                        <input type="text" id="txb_87_result" readonly="readonly">
+                        <textarea id="txtarea_87_result" rows="3" readonly="readonly"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -36,11 +37,12 @@
                     </td>
                     <td>
                         <input type="text" id="txb_226_n" placeholder="Введіть n"><br>
+                        <br>
                         <input type="text" id="txb_226_m" placeholder="Введіть m">
                         <button id="btn_226">Порахувати</button>
                     </td>
                     <td>
-                        <input type="text" id="txb_226_result" readonly="readonly">
+                        <textarea id="txtarea_226_result" rows="3" readonly="readonly"></textarea>
                     </td>
                 </tr>
                 <tr>
@@ -56,8 +58,7 @@
                         <button id="btn_559">Порахувати</button>
                     </td>
                     <td>
-                        <input type="text" id="txb_559_result" readonly="readonly">
-                        <textarea id="txtarea_559_result" rows="5" hidden="hidden"></textarea>
+                        <textarea id="txtarea_559_result" rows="3" readonly="readonly"></textarea>
                     </td>
                 </tr>
             </table>
@@ -66,17 +67,17 @@
         <script src="script/myScript.js"></script>
         <script>
             document.getElementById('btn_87').onclick = function(){ 
-                setValueToTxb(GetSum_87, "txb_87_result", document.getElementById('txb_87_n').value, 
+                setValueToTxb(GetSum_87, "txtarea_87_result", document.getElementById('txb_87_n').value, 
                 document.getElementById('txb_87_m').value);
             }
 
             document.getElementById('btn_226').onclick = function(){ 
-                setValueToTxb(GetAllCommonDivisors_226, "txb_226_result", document.getElementById('txb_226_n').value, 
+                setValueToTxb(GetAllCommonDivisors_226, "txtarea_226_result", document.getElementById('txb_226_n').value, 
                 document.getElementById('txb_226_m').value);
             }
 
             document.getElementById('btn_559').onclick = function(){ 
-                setValueToTxb(GetPrimeMersonNumbers_559, "txb_559_result", document.getElementById('txb_559').value);
+                setValueToTxb(GetPrimeMersonNumbers_559, "txtarea_559_result", document.getElementById('txb_559').value);
             }
         </script>
     </body>
