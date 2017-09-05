@@ -67,6 +67,7 @@ function GetAllCommonDivisors_226(n, m)
                     b += biggerNumber;
                 }
                 while (m * n > b);
+                commonDividers[0] = "Числа " + m + " та "+ n + " не мають спільних кратних до " + m*n;
             }
         }
     }
