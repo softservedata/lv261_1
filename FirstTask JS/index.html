@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Task</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="src/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+
+<body>
+    <!-- number of digits in a number -->
+    <div id="task1">
+        <label>Enter a positive number: </label>
+        <input type="number" id="task1Number" min="1"><br>
+        <button id="task1Button" onclick="task1EventHandler();">Submit</button>
+        <div id="task1Answer">Result: </div>
+    </div>
+
+    <!-- number of aliquot to 3, but not 5 -->
+    <div id="task2">
+        <label>Enter a sequence of numbers separated by space:</label>
+        <input type="text" id="task2Numbers"><br>
+        <button id="task2Button" onclick="task2EventHandler();">Submit</button>
+        <div id="task2Answer">Result: </div>
+    </div>
+
+    <!-- split into sum of 4 squares -->
+    <div id="task3">
+        <label>Enter a positive number:</label>
+        <input type="number" id="task3Number" min="1" ><br>
+        <button id="task3Button" onclick="task3EventHandler();">Submit</button>
+        <div id="task3Answer">Result: </div>
+    </div>
+</body>
+
+</html>
