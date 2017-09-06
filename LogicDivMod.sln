@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicDivMod", "LogicDivMod\LogicDivMod.csproj", "{BFDA32EF-B1EF-473C-86E6-C9C3D2CF31E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFDA32EF-B1EF-473C-86E6-C9C3D2CF31E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFDA32EF-B1EF-473C-86E6-C9C3D2CF31E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFDA32EF-B1EF-473C-86E6-C9C3D2CF31E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFDA32EF-B1EF-473C-86E6-C9C3D2CF31E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44F952B6-D20F-468D-B49A-B1A9167FD8DC}
+	EndGlobalSection
+EndGlobal
